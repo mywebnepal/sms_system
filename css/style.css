@@ -1,0 +1,124 @@
+html{
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust:     100%;
+  padding: 0px;
+  margin: 0px;
+  font-size:16px;
+    line-height:1.5;
+    color:#555;
+    text-rendering: optimizeLegibility;
+   -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+body{
+  padding: 0px !important;
+  margin: 0px !important;
+  background-color: #e9e9e9 !important;
+}
+ input[type='text']
+ {
+   text-transform: lowercase !important;
+ }
+.nopadding{
+	padding:0px !important;
+}
+.nomargin{
+	margin: 0px !important;
+}
+.smsLogin{
+	width: 350px;
+	height: auto;
+	display: table;
+	margin: 0 auto;
+	border-radius: 2em;
+	padding-top: 10%;
+}
+.smsLogin .num1{
+   width: 50px !important;
+   text-align: center;
+}
+.smsLogin .num2{
+   width: 50px !important;
+   text-align: center;
+}
+.mainMenu{
+	width: 100%;
+	height: auto;
+	display: table;
+	background: #191970;
+	margin-bottom: 5px;
+	clear: both;
+}
+.mainMenu a{
+	color: #FFF !important;
+}
+.leftMenu{
+	width: 100%;
+	height: auto;
+	padding: 1em 2em !important;
+	display: table;
+	margin: 0 auto !important;
+	background: #191970;
+}
+.mainFrame{
+	width: 100%;
+	height: auto;
+	background: #FFF;
+	padding: 1em;
+	margin: 2em 0em;
+}
+.leftMenu button{
+	margin-bottom: 5px !important;
+}
+.leftMenu a:hover{
+  text-decoration: none;
+}
+.leftMenu button{
+  background: #191970;
+  color: #FFF;
+}
+.leftMenu a button:visited{
+   background: #FFF;
+}
+.navbar-nav li a:hover{
+	color: #000 !important;
+}
+.dl_data dt:hover{
+	background: #191970 !important;
+	cursor: pointer;
+	color: #FFF !important;
+	text-align: left;
+}
+.tblView tr td{
+     padding: 0px !important;
+     margin: 0px !important;
+}
+.listOfMem{
+	clear: both;
+	width: 100%;
+	height: auto;
+	display: table;
+	padding:4px 10px !important;
+}
+.listOfMem ul{
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #FFF;
+	
+}
+.listOfMem ul li{
+	list-style: none;
+	width: 100%;
+}
+.listOfMem ul li:hover{
+    cursor: pointer !important;
+    background: #FFF !important;
+    color: #000 !important;
+    width: 100%;
+}
+.stdnam_list label:hover{
+	background: #FFF !important;
+	color: #000 !important;
+	border-bottom: 1px solid #FFF;
+}
